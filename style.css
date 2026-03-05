@@ -11,6 +11,7 @@ main {
   /* height: 100vh; */
   background-color: burlywood;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;

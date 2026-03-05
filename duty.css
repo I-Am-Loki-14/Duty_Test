@@ -15,7 +15,7 @@
 table {
   width: 100%;
   padding: 0.5rem;
-
+  min-width: 500px;
   /* transform: rotate(90deg); */
 }
 tbody tr td {
