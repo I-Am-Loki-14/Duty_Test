@@ -10,10 +10,12 @@
   width: 100%;
   /* height: 100vh; */
   background-color: rgb(234, 235, 235);
+  overflow-x: auto;
 }
 table {
   width: 100%;
   padding: 0.5rem;
+
   /* transform: rotate(90deg); */
 }
 tbody tr td {
@@ -21,6 +23,7 @@ tbody tr td {
   font-weight: bold;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding: 0.5rem 0;
+  white-space: nowrap;
 }
 .day_off {
   background-color: rgb(255, 230, 3);
